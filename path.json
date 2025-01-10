@@ -1,0 +1,4 @@
+{
+    "data_path": "data/geodata.geojson",
+    "config_path": "src/pydeck/config.json"
+}

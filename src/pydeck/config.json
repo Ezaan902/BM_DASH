@@ -1,0 +1,31 @@
+{
+    "geojson_layer": {
+        "type": "GeoJsonLayer",
+        "filled": true,
+        "stroked": false,
+        "extruded": true,
+        "wireframe": false,
+        "linewidthScale": 20,
+        "linewidthMinPixels": 2,
+        "elevation_scale": 10,
+        "get_elevation": "df_clustered_men_dens" ,
+        "get_fill_color": "color",
+        "get_line_color": [255, 255, 255, 255],
+        "pickable": true,
+        "auto_highlight": true
+    },
+    "map_style": "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
+    "view_state": {
+        "latitude": 44.826352,
+        "longitude": -0.562534,
+        "max_latitude": 45.0, 
+        "min_latitude":44.5, 
+        "max_longitude":-0.5, 
+        "min_longitude":-0.6,
+        "bearing": 0,
+        "pitch": 60,
+        "min_zoom": 13,
+        "max_zoom": 16,
+        "zoom": 14
+    }
+}
